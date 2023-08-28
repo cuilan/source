@@ -1,0 +1,159 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Java
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.0.5.jdk/Contents/Home
+
+# GraalVM
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/graalvm-ce-java8-21.0.0.2/Contents/Home
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/graalvm-ce-java17-22.3.0/Contents/Home
+# export GRAALVM_HOME=$JAVA_HOME
+
+# maven
+# export M2_HOME=/Users/zhangyan/soft/apache-maven-3.6.3/bin
+
+# go
+# export GO111MODULE=on
+# export GOPROXY="https://goproxy.cn,direct"
+# export GOPROXY="https://goproxy.cn"
+# export GOROOT=/usr/local/go/
+# export GOPATH=/Users/zhangyan/gopath
+# export GOBIN=/Users/zhangyan/gopath/bin
+# export GOPRIVATE="gitlab.weattech.com"
+
+# gradle
+# export GRADLE_HOME=/Users/zhangyan/soft/gradle/gradle-7.4.2
+
+# groovy
+# export GROOVY_HOME=/Users/zhangyan/soft/groovy/groovy-4.0.13
+
+# python3
+# export PYTHON3="/usr/local/opt/python@3.8/bin"
+
+# gnubin
+# export GNUBIN=/usr/local/opt/inetutils/libexec/gnubin
+
+# nodejs
+# NODE_VERSION="v14.21.2"
+# export NODE_PATH="/Users/zhangyan/soft/node/node-${NODE_VERSION}-darwin-x64/bin"
+
+# path
+# export PATH=$JAVA_HOME/bin:$GRAALVM_HOME/bin:$M2_HOME:$GOPATH:$GOBIN:$GNUBIN:$PATH
+# export PATH=$GRADLE_HOME/bin:$GROOVY_HOME/bin:$HOME/.local/bin:$NODE_PATH:$PATH
+
+# ==========================================================
+
+# system
+alias ..="cd ../"
+alias ..2="cd ../../"
+alias ..3="cd ../../../"
+alias ..4="cd ../../../../"
+alias ..5="cd ../../../../../"
+
+# docker
+alias dps="docker ps"
+alias dc="docker-compose"
+
+# python
+alias python3="python3.8"
+alias python="python3.8"
+alias pip="pip3"
+
+# kubernetes
+alias k="kubectl"
+
+# =========================================================
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/zhangyan/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# plugins
+# git
+# zsh-autosuggestions 自动补全
+# zsh-syntax-highlighting 命令高亮
+# brew
+plugins=(
+  git 
+  zsh-autosuggestions 
+  zsh-syntax-highlighting
+  brew
+)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"

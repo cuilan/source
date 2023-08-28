@@ -1,0 +1,19 @@
+#------------------------------------------------------------------------------#
+#                            OFFICIAL UBUNTU REPOS                             #
+#------------------------------------------------------------------------------#
+
+# Ubuntu Main Repos
+deb mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}} main restricted universe multiverse
+# deb-src mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}} main restricted universe multiverse
+
+# Ubuntu Update Repos
+deb mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}}-updates main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}}-backports main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}}-security main restricted universe multiverse
+# deb-src mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}}-updates main restricted universe multiverse
+# deb-src mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}}-backports main restricted universe multiverse
+# deb-src mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}}-security main restricted universe multiverse
+
+# Ubuntu Pre Release Repos
+# deb mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}}-proposed main restricted universe multiverse
+# deb-src mirror://mirrors.ubuntu.com/mirrors.txt {{OS_RELEASE}}-proposed main restricted universe multiverse
